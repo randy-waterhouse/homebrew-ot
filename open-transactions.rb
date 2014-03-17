@@ -13,7 +13,8 @@ class OpenTransactions < Formula
   depends_on 'autoconf'   => :build
   depends_on 'pkg-config' => :build
   depends_on 'openssl'
-  depends_on 'protobuf' => 'c++11' #TODO: how should we link c++11 protobuf and the disable-cxx11 options together?
+#  depends_on 'protobuf' => 'c++11' #TODO: how should we link c++11 protobuf and the disable-cxx11 options together?
+  depends_on 'protobuf'
   depends_on 'msgpack'
   depends_on 'homebrew/versions/zeromq22'
 
