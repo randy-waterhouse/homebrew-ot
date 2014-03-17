@@ -20,12 +20,13 @@ class OpenTransactions < Formula
   depends_on 'perl'   => :optional
   depends_on 'ruby'   => :optional
   depends_on 'python' => :optional
-  depends_on 'tcl'    => :optional
 
   option 'with-java', 'SWIG support for Java (Java not managed by homebrew)'
   option 'with-php', 'SWIG support for PHP (PHP not managed by homebrew)'
   option 'with-csharp', 'SWIG support for C# (C# not managed by homebrew)'
   option 'with-d', 'SWIG support for D (D not managed by homebrew)'
+  option 'with-tcl', 'SWIG support for tcl (tcl not managed by homebrew)'
+  option 'with-go', 'SWIG support for GO (GO not supported by homebrew)'
 
   option 'enable-debug', 'Enable Configuration in Debug Mode'
   option 'enable-release', 'Enable Configuration in Release Mode'
